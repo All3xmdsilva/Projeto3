@@ -33,6 +33,7 @@ body {
     background-size: cover;
     **/
     background: var(--bg-url) top center/cover;
+    height: 100vh;
 
 }
 
@@ -170,4 +171,14 @@ footer{
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
+}
+
+/* Media queries*/
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./imagens/bg-desktop.jpg);
+    }
+    .light{
+        --bg-url: url(./imagens/bg-light.jpg);
+    }
 }
